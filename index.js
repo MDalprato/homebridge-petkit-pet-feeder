@@ -81,7 +81,8 @@ const defaults = Object.freeze({
     'hosts': {
         'cn': 'http://api.petkit.cn/6',
         'asia': 'http://api.petktasia.com/latest',
-        'international': 'http://api.petkt.com/latest'
+        'international': 'http://api.petkt.com/latest',
+        'eu': 'http://api.eu-pet.com/latest'
     },
     'urls': {
         'Feeder': {
