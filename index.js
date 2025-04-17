@@ -86,7 +86,7 @@ const defaults = Object.freeze({
     },
     'urls': {
         'Feeder': {
-            'owndevices': '/discovery/device_roster',
+            'owndevices': '/discovery/device_roster_v2',
             'deviceState': '/devicestate?id={}',
             'deviceDetailInfo': '/device_detail?id={}',
             'saveDailyFeed': '/save_dailyfeed?deviceId={}&day={}&time={}&amount={}',
@@ -99,7 +99,7 @@ const defaults = Object.freeze({
             'updateSettings': '/update?id={}&kv={}'
         },
         'FeederMini': {
-            'owndevices': '/discovery/device_roster',
+            'owndevices': '/discovery/device_roster_v2',
             'deviceState': '/devicestate?id={}',
             'deviceDetailInfo': '/device_detail?id={}',
             'saveDailyFeed': '/save_dailyfeed?deviceId={}&day={}&time={}&amount={}',
@@ -112,7 +112,7 @@ const defaults = Object.freeze({
             'updateSettings': '/update?id={}&kv={}'
         },
         'D4': {
-            'owndevices': '/discovery/device_roster',
+            'owndevices': '/discovery/device_roster_v2',
             'deviceState': '/devicestate?id={}',
             'deviceDetailInfo': '/device_detail?id={}',
             'saveDailyFeed': '/saveDailyFeed?deviceId={}&day={}&time={}&amount={}',
@@ -125,7 +125,7 @@ const defaults = Object.freeze({
             'updateSettings': '/updateSettings?id={}&kv={}'
         },
         'D3': {
-            'owndevices': '/discovery/device_roster',
+            'owndevices': '/discovery/device_roster_v2',
             'deviceState': '/devicestate?id={}',
             'deviceDetailInfo': '/device_detail?id={}',
             'saveDailyFeed': '/saveDailyFeed?deviceId={}&day={}&time={}&amount={}',
