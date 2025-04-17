@@ -34,7 +34,9 @@
             "oneOf": [
               { "title": "China mainland", "enum": ["cn"] },
               { "title": "Asia", "enum": ["asia"] },
-              { "title": "International", "enum": ["international"] }
+              { "title": "International", "enum": ["international"] },
+              { "title": "Europe", "enum": ["eu"] }
+
             ]
           },
           "model": {
